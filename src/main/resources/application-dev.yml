@@ -32,7 +32,7 @@ apollo:
   meta: http://meta.apollo.xxx.cn
   bootstrap:
     # 是否开启 Apollo
-    enabled: true
+    enabled: false
     eagerLoad:
       # 将 Apollo 加载提到初始化日志系统之前，如果设置为false，则配置中心中修改日志信息不会生效
       enabled: true
@@ -118,9 +118,9 @@ spring:
   
   # 配置Mybatis
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/springBootTest
+    url: jdbc:mysql://47.107.254.107:3306/data
     username: root
-    password: lyc123456
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
   
   #  配置ActiveMQ

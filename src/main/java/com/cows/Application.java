@@ -13,6 +13,7 @@ import org.springframework.cache.annotation.EnableCaching;
 public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
+		log.info("服务已启动");
 	}
 
 }

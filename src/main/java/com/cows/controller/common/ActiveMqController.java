@@ -1,3 +1,4 @@
+/*
 package com.cows.controller.common;
 
 import com.cows.producer.ActiveMqMyProducer;
@@ -10,11 +11,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+*/
 /**
  * 一个ActiveMQ的Controller示例。
  * @author liyinchi
  * @date 2024/06/29
- */
+ *//*
+
 @Slf4j
 @RestController
 @RequestMapping("/activemq")
@@ -32,4 +35,4 @@ public class ActiveMqController {
         log.info("===生产者 发送点对点消息===");
         return "success";
     }
-}
+}*/
